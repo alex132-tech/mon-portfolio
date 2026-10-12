@@ -72,3 +72,53 @@ body {
   margin: 8px 0;
   font-size: 1.05rem;
 }
+
+.btn-contact {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: white;
+  color: #667eea;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.btn-contact:hover {
+  transform: scale(1.05);
+}
+
+.apropos {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+.apropos h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.apropos p {
+  line-height: 1.6;
+  color: #555;
+}
+
+.projet a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact a {
+  color: #667eea;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
